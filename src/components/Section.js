@@ -31,7 +31,8 @@ const Wrap = styled.div`
   background-image: url('/images/model-s.jpg');
   display: flex;
   flex-direction: colomn;
-  
+  justify-content: space-between;
+  align-items: center;
 ` 
 
 const ItemText = styled.div`
@@ -41,6 +42,7 @@ const ItemText = styled.div`
 
 const ButtonGroup = styled.div`
   display: flex;
+  margin-bottom: 30px;
 `
 
 const LeftButton = styled.div`
@@ -55,6 +57,7 @@ const LeftButton = styled.div`
   opacity: 0.85;
   text-transform: uppercase;
   font-size: 12px;
+  cursor: pointer;
 `
 
 const RightButton = styled(LeftButton)`
