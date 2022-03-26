@@ -30,7 +30,7 @@ const Wrap = styled.div`
   background-repeat: no-repeat;
   background-image: url('/images/model-s.jpg');
   display: flex;
-  flex-direction: colomn;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 ` 
